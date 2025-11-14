@@ -18,5 +18,8 @@ First I will build a 5 page website. If that works out I will extend it to 8 pag
 
 ---
 ## References
+    - [directory structure](https://www.geeksforgeeks.org/javascript/file-and-folder-organization-best-practices-for-web-development/)
 - ### index.html
     - [parchment background colour](https://htmlcolorcodes.com/colors/parchment/)
+    - [12 column grid](https://www.w3schools.com/css/css_grid_12column.asp)
+    - [css repeat function](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-advanced-grid-properties#repeat)
