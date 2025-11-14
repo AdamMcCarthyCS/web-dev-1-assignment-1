@@ -15,3 +15,8 @@ First I will build a 5 page website. If that works out I will extend it to 8 pag
 - Cards: rounded corners and consistent padding, effect (shadow?)
 - Images: captions underneath? Same size throughout, border and rounded corners, hover on main page?
 - Quotes: different background? Border effects?
+
+---
+## References
+- ### index.html
+    - [parchment background colour](https://htmlcolorcodes.com/colors/parchment/)
