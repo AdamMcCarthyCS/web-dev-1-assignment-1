@@ -18,10 +18,13 @@ First I will build a 5 page website. If that works out I will extend it to 8 pag
 
 ---
 ## References
-    - [directory structure](https://www.geeksforgeeks.org/javascript/file-and-folder-organization-best-practices-for-web-development/)
+    
 - ### index.html
+    - [directory structure](https://www.geeksforgeeks.org/javascript/file-and-folder-organization-best-practices-for-web-development/)
+
     - [parchment background colour](https://htmlcolorcodes.com/colors/parchment/)
     - [12 column grid](https://www.w3schools.com/css/css_grid_12column.asp)
     - [css repeat function](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-advanced-grid-properties#repeat)
     - [grid column span shorthand syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement#the_grid-column_and_grid-row_shorthands)
     - [flexbox - styling a nav][https://github.com/AdamMcCarthyCS/css-exercises/tree/main/foundations/flex]
+    - I took the max container width used with [bootstrap](https://getbootstrap.com/docs/4.4/layout/overview/) for the max-width value
