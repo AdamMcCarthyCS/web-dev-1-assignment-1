@@ -73,6 +73,7 @@ a:hover {color: #68d0b0}
 /* This is the styling for the footer for the whole site */
 #footer {
     font-size: 14px;
+    color:#fcf5e5;
 }
 
 /* This is the styling for the hero section */
@@ -122,17 +123,17 @@ a:hover {color: #68d0b0}
     
 }
 
-.cards .caption {
+.card .caption {
     font-size: 24px;
     font-weight: 600;
 }
 
-.cards img {
+.card img {
     width: 100%;
     border-radius: 4px;
 }
 
-.cards a {
+.card a {
     text-decoration: none;
     color: #68d0b0;
     font-weight: 600;
