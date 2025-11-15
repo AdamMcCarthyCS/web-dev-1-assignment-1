@@ -23,3 +23,5 @@ First I will build a 5 page website. If that works out I will extend it to 8 pag
     - [parchment background colour](https://htmlcolorcodes.com/colors/parchment/)
     - [12 column grid](https://www.w3schools.com/css/css_grid_12column.asp)
     - [css repeat function](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-advanced-grid-properties#repeat)
+    - [grid column span shorthand syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement#the_grid-column_and_grid-row_shorthands)
+    - [flexbox - styling a nav][https://github.com/AdamMcCarthyCS/css-exercises/tree/main/foundations/flex]

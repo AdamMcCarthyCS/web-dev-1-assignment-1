@@ -12,3 +12,51 @@ body {
     grid-template-columns: repeat(12, 1fr);
     gap: 32px;
 }
+
+a, a:link, a:visited, #navigation{
+    text-decoration: none;
+    color: #fcf5e5;
+}
+
+a:hover {
+    color: #fcf5e5cb;
+}
+
+/* The styling of the navigation used throughout the site */
+
+#navigation {
+    grid-column: 1 / 13; /* starts at line 1 (left margin) ends at line 13 (right margin) */
+    background-color: #273447;
+    padding: 24px;
+}
+
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    /* pushes the logo and links apart */
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+#navigation ul {
+    font-size: 18px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /* flexbox used to space the links (the children of the ul are flex items) */
+    display: flex;
+    gap: 32px; 
+}
+
+#navigation li {
+    padding: 4px 8px;
+    border-radius: 8px;
+}
+.active {
+    border: 2px solid #fcf5e5;
+}
+
