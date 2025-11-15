@@ -34,7 +34,6 @@ a:hover {color: #68d0b0}
 
 
 #navigation, #footer {
-    grid-column: 1 / 13; /* starts at line 1 (left margin) ends at line 13 (right margin) */
     background-color: #273447;
     padding: 24px;
 }
