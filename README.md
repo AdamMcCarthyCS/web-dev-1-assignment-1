@@ -28,3 +28,9 @@ First I will build a 5 page website. If that works out I will extend it to 8 pag
     - [grid column span shorthand syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement#the_grid-column_and_grid-row_shorthands)
     - [flexbox - styling a nav][https://github.com/AdamMcCarthyCS/css-exercises/tree/main/foundations/flex]
     - I took the max container width used with [bootstrap](https://getbootstrap.com/docs/4.4/layout/overview/) for the max-width value
+    [background-blend-mode](https://www.w3.org/TR/compositing-1/#blendingmultiply)
+    [transparent colour creation. Making black opaque](https://www.w3schools.com/css/css_colors_rgb.asp)
+    [HTML arrow used in hero](https://www.w3schools.com/charsets/ref_utf_arrows.asp)
+
+    #### Photo credit
+    [Yorkshire Moors near Haworth](https://i0.wp.com/www.independentpeople.net/wp-content/uploads/2017/02/England-Dales-Bronte10.jpg?fit=1500%2C1000&ssl=1)
