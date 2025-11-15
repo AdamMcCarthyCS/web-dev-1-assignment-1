@@ -81,7 +81,7 @@ a:hover {
 #hero {
     background-image: url("/assets/images/landing-moors.jpg");
     text-align: center;
-    margin: 120px;
+    margin: 120px 0px;
 }
 #hero .overlay {
     background-color: rgba(39, 52, 71, .3);
