@@ -33,3 +33,6 @@ First I will build a 5 page website. If that works out I will extend it to 8 pag
     - [font properties and syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/font#syntax)
     #### Photo credit
     - [Yorkshire Moors near Haworth](https://i0.wp.com/www.independentpeople.net/wp-content/uploads/2017/02/England-Dales-Bronte10.jpg?fit=1500%2C1000&ssl=1)
+    - [Charlotte Brontë portrait](https://www.facebook.com/groups/LoveIrelandGroup/posts/1942904032913418/)
+    - [Photograph of Emily Brontë portrait](https://www.flickr.com/photos/harshlight/49529075162)
+    - [Portrait of Anne Brontë](https://en.wikipedia.org/wiki/Anne_Bront%C3%AB#/media/File:Anne_Bront%C3%AB_by_Patrick_Branwell_Bront%C3%AB_restored.jpg)
