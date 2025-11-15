@@ -1,3 +1,4 @@
+/* General styling of elements */
 html * {
     /* makes it much easier to figure out the widths of everything */
     box-sizing: border-box;
@@ -5,15 +6,23 @@ html * {
 
 body {
     background-color: #fcf5e5;
+    color: #fcf5e5;
 }
+
+h1 {font-size: 40px}
+h2 {font-size: 32px}
+h3 {font-size: 24px}
+
 
 .container {
     max-width: 1100px;
-    margin: auto;
+    margin: 0 auto;
     /* display: grid; */
     grid-template-columns: repeat(12, 1fr);
     gap: 32px;
 }
+
+/* The styling of the navigation used throughout the site */
 
 a, a:link, a:visited, #navigation{
     text-decoration: none;
@@ -24,7 +33,7 @@ a:hover {
     color: #fcf5e5cb;
 }
 
-/* The styling of the navigation used throughout the site */
+
 
 #navigation, #footer {
     grid-column: 1 / 13; /* starts at line 1 (left margin) ends at line 13 (right margin) */
@@ -65,6 +74,25 @@ a:hover {
 
 /* This is the styling for the footer for the whole site */
 #footer {
-    color:#fcf5e5;
     font-size: 14px;
 }
+
+/* This is the styling for the hero section */
+#hero {
+    background-image: url("/assets/images/landing-moors.jpg");
+    text-align: center;
+    margin: 120px;
+}
+#hero .overlay {
+    background-color: rgba(39, 52, 71, .3);
+    padding: 40px 120px 160px;
+}
+#hero h1, #hero h2 {margin: 24px;}
+#hero a {color: #a3d6c7}
+#hero a:hover{
+    border: 2px solid;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+
