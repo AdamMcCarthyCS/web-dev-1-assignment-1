@@ -77,10 +77,11 @@ a:hover {color: #68d0b0}
 }
 
 /* This is the styling for the hero section */
-.hero-landing {
-    background-image: url("/assets/images/landing-moors.jpg");
+.hero-landing {background-image: url("/assets/images/landing-moors.jpg");}
+.hero-overview{
+    background-image: url("/assets/images/overview-haworth-parsonage.jpg");
+    background-size: cover;
 }
-
 .hero {
     text-align: center;
     margin-top: 120px;
