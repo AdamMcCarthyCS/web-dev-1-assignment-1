@@ -77,8 +77,11 @@ a:hover {color: #68d0b0}
 }
 
 /* This is the styling for the hero section */
-.hero {
+.hero-landing {
     background-image: url("/assets/images/landing-moors.jpg");
+}
+
+.hero {
     text-align: center;
     margin-top: 120px;
     color: #fcf5e5;
