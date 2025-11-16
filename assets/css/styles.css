@@ -20,9 +20,10 @@ h3 {font-size: 24px}
     margin: 0 auto;
 }
 
-a, a:link, a:visited, #navigation{
-    text-decoration: none;
+#navigation a {
     color: #fcf5e5;
+    text-decoration: none;
+    
 }
 
 /* The styling of the navigation used throughout the site */
@@ -36,6 +37,7 @@ a:hover {color: #68d0b0}
 #navigation, #footer {
     background-color: #273447;
     padding: 24px;
+    color: #fcf5e5;
 }
 
 
@@ -72,7 +74,6 @@ a:hover {color: #68d0b0}
 /* This is the styling for the footer for the whole site */
 #footer {
     font-size: 14px;
-    color:#fcf5e5;
 }
 
 /* This is the styling for the hero section */
