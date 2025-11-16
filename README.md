@@ -46,6 +46,13 @@ First I will build a 5 page website. If that works out I will extend it to 8 pag
     - Font colours are annoying. You could decide every colour at the start but sometimes you need too see how they look as you build the page. This is unfortunate as it ends up leading to refactoring and hunting down individual color: statements.
     - When you start the overview page, try to use every possible inherited property you can from the landing page styling. Thats what I had in mind when I started but it takes ages.
     - I've spent 11 hours and only built one page?!! I'm going with the glass half full and saying I got many silly mistakes out of the way early.
-
+- ### overview.html
+    - Add photo reference
+    - Was there any technique i need to reference from project odin? Similarly mdn.
+    - I need to change up the style now for the three sisters pages. I have shown I can inherit properties from the CSS sheet. Now its time to make try some flex-direction: column timelines 
+    - You can use the same css for different pages with changes by taking just that property (i.e border-color and making it a class like landing-hr or overview-hr). This applies to using different background images also. Isolate the one property that makes the change and style the rest of the properties for all pages in a single rule as they dont change.
+    - Separate sections with hr's to make the layout clearer
+    - I didn't really give the pages different accents for the first two pages. How can I do that better? Borders look too hackish when i colour them?
+    - I dont want to reinvent the wheel when I'm styling the sisters pages. Try to use some of the section classes to take care of the font, spacing, etc. The text-section should be reusable.
 
     
