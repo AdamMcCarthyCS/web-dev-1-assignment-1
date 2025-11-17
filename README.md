@@ -42,8 +42,16 @@ First I will build a 5 page website. If that works out I will extend it to 8 pag
     #### Photo credit
     - [Overview hero image of Haworth Parsonage](https://www.countrylife.co.uk/out-and-about/theatre-film-music/bronte-sisters-parsonage-haworth-146543)
 
+    ### charlotte.html
+    - Hero image generated using chatGPT prompt "Give me an image of Jane Eyre meeting Rochester for the first time on his horse"
+    - Quote styling using MDN page [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/blockquote#try_it)
+    - I learned flex-column layout [here](https://www.theodinproject.com/lessons/foundations-axes#axes)
+    - You can see all my flexbox practice in the past [here](https://github.com/AdamMcCarthyCS/css-exercises/tree/main/foundations/flex) and some more use of flex in a landing page [here](https://github.com/AdamMcCarthyCS/project-odin-landing-page/tree/main)
+    - I learned how to use google fonts [here](https://www.w3schools.com/css/css_font_google.asp)
+    - [Allura Font](https://fonts.google.com/specimen/Allura) for the quote section
+
     #### Reflections:
-    Page 1:
+- ### landing.html
     - I started with the idea of using grid for the main container and ended up not using it! Lets hope that doesn't evolve into a disaster!
     - Keep the spacing the same between sections now throughout all the site pages
     - Don't use * properties again besides for box-sizing. Absolute headache.
@@ -59,5 +67,15 @@ First I will build a 5 page website. If that works out I will extend it to 8 pag
     - Separate sections with hr's to make the layout clearer
     - I didn't really give the pages different accents for the first two pages. How can I do that better? Borders look too hackish when i colour them?
     - I dont want to reinvent the wheel when I'm styling the sisters pages. Try to use some of the section classes to take care of the font, spacing, etc. The text-section should be reusable.
+- ### charlote.html
+    - Tinting the background-colour of a div looks cool and is simple to do with RGBA and making the colours more transparent!
+    - Adding a link to a google font is straightforward and most of them can be downloaded so you dont need to save them locally. 
+    - I can mix up the three bio pages by changing the colours in the timeline and quote sections and also switching the timeline from right to left and vice versa
+    - I'm still undecided on the last three pages. Potentially three from: 
+        - Literary influence
+        - Movie Adaptations
+        - All their books covers using grid layout
+        - Info about Brontë visits and societies like the one in Banagher, Offaly
+        - 
 
     
