@@ -198,4 +198,25 @@ hr {
 .text-section.bio-right {
     grid-column: 2 / 4;
     text-align: left;
+    width: 80%;
+}
+
+/* This is for styling the quote section */
+
+blockquote {
+    width: 90%;
+    padding: 36px;
+    margin: 48px auto;
+    border-radius: 16px;
+    font-size: 48px;
+    line-height: 1.75em;
+}
+
+.citation {
+    text-align: right;
+}
+
+.quote-charlotte {
+    background-color: rgba(122, 47, 47, .1);
+    font-family: allura;
 }
