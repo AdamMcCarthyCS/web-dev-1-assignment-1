@@ -78,10 +78,8 @@ a:hover {color: #68d0b0}
 
 /* This is the styling for the hero section */
 .hero-landing {background-image: url("/assets/images/landing-moors.jpg");}
-.hero-overview{
-    background-image: url("/assets/images/overview-haworth-parsonage.jpg");
-    
-}
+.hero-overview{background-image: url("/assets/images/overview-haworth-parsonage.jpg");}
+.hero-charlotte{background-image: url("/assets/images/jane-eyre-rochester.png");}
 .hero {
     background-size: cover;
     text-align: center;
