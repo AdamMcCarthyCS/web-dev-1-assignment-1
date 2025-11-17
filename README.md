@@ -37,6 +37,11 @@ First I will build a 5 page website. If that works out I will extend it to 8 pag
     - [Photograph of Emily Brontë portrait](https://www.flickr.com/photos/harshlight/49529075162)
     - [Portrait of Anne Brontë](https://en.wikipedia.org/wiki/Anne_Bront%C3%AB#/media/File:Anne_Bront%C3%AB_by_Patrick_Branwell_Bront%C3%AB_restored.jpg)
 
+    ### overview.html
+    - [Cards Layout](https://github.com/AdamMcCarthyCS/css-exercises/tree/main/intermediate-html-css/advanced-grid/02-holy-grail-mockup)
+    #### Photo credit
+    - [Overview hero image of Haworth Parsonage](https://www.countrylife.co.uk/out-and-about/theatre-film-music/bronte-sisters-parsonage-haworth-146543)
+
     #### Reflections:
     Page 1:
     - I started with the idea of using grid for the main container and ended up not using it! Lets hope that doesn't evolve into a disaster!
