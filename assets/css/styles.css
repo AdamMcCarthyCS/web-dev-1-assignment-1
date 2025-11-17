@@ -26,12 +26,9 @@ h3 {font-size: 24px}
     
 }
 
+
+
 /* The styling of the navigation used throughout the site */
-
-
-
-a:hover {color: #68d0b0}
-
 
 
 #navigation, #footer {
@@ -78,10 +75,9 @@ a:hover {color: #68d0b0}
 
 /* This is the styling for the hero section */
 .hero-landing {background-image: url("/assets/images/landing-moors.jpg");}
-.hero-overview{
-    background-image: url("/assets/images/overview-haworth-parsonage.jpg");
-    
-}
+.hero-overview{background-image: url("/assets/images/overview-haworth-parsonage.jpg");}
+.hero-charlotte{background-image: url("/assets/images/jane-eyre-rochester.png");}
+
 .hero {
     background-size: cover;
     text-align: center;
@@ -94,11 +90,7 @@ a:hover {color: #68d0b0}
 }
 .hero h1, .hero h2 {margin: 24px;}
 .hero a {color: #68d0b0}
-.hero a:hover{
-    border: 2px solid;
-    padding: 4px;
-    border-radius: 8px;
-}
+
 
 /* This is the styling of the intro section */
 
@@ -168,3 +160,57 @@ hr {
     font-weight: 600;
 }
 
+/* This is the styling for the bio section */
+
+.bio-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 32px;
+    margin: 48px auto;
+}
+
+.timeline {
+    margin: 48px auto;
+    border-left: 3px solid #7a2f2f;
+    border-radius: 8px;
+    padding: 16px;
+    grid-column: 1 / 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 16px auto;
+    line-height: 1.75em;
+    background-color: rgba(122, 47, 47, .1)    ;
+}
+
+.timeline-item {
+    font-family: sans-serif;
+    margin: 16px 0;
+}
+
+
+.text-section.bio-right {
+    grid-column: 2 / 4;
+    text-align: left;
+    width: 80%;
+}
+
+/* This is for styling the quote section */
+
+blockquote {
+    width: 90%;
+    padding: 36px;
+    margin: 48px auto;
+    border-radius: 16px;
+    font-size: 48px;
+    line-height: 1.75em;
+}
+
+.citation {
+    text-align: right;
+}
+
+.quote-charlotte {
+    background-color: rgba(122, 47, 47, .1);
+    font-family: allura;
+}
