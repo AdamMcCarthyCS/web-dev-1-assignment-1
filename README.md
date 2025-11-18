@@ -49,6 +49,10 @@ First I will build a 5 page website. If that works out I will extend it to 8 pag
     - You can see all my flexbox practice in the past [here](https://github.com/AdamMcCarthyCS/css-exercises/tree/main/foundations/flex) and some more use of flex in a landing page [here](https://github.com/AdamMcCarthyCS/project-odin-landing-page/tree/main)
     - I learned how to use google fonts [here](https://www.w3schools.com/css/css_font_google.asp)
     - [Allura Font](https://fonts.google.com/specimen/Allura) for the quote section
+    ### emily.html
+    - Hero image generated using chatGPT "Create an image of Catherine and Heathcliff in waist high grass in the rain in Wuthering Heights"
+    - Cancelled out dark overlay using filter: brightness() which I learned [here](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/filter-function/brightness)
+    
 
     #### Reflections:
 - ### landing.html
@@ -76,6 +80,9 @@ First I will build a 5 page website. If that works out I will extend it to 8 pag
         - Movie Adaptations
         - All their books covers using grid layout
         - Info about Brontë visits and societies like the one in Banagher, Offaly
-        - 
+- ### emily.html
+    - Remember that you can have elements naturally flow into the right places (vertically) when only defining grid-template-columns (not rows) by the order that the content appears in the html page. This is how I got the order right on the emily page for the text-bio and the timeline!
+    - This repeatable page paid off. Just swapping the sides and adding some colour did make the pages a bit more distinct without reinventing the wheel
+    - Anne's page will have three links to TBAs at that point. Should I just have those bottom links going between the sisters? I think if I stuck with what I'm doing people would find the 6th, 7th, and 8th pages more easily. The fact that the sisters names come in the leftmost links makes them obvious sequential next stops.
 
     
