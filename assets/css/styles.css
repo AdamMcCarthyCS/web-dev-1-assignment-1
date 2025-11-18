@@ -191,12 +191,12 @@ hr {
 
 .timeline-charlotte {
     grid-column: 1 / 2;
-    background-color: rgba(122, 47, 47, .1);
+    background-color: rgba(122, 47, 47, .08);
 }
 
 .timeline-emily {
     grid-column: 3 / 4;
-    background-color: rgba(106, 127, 155, .1);
+    background-color: rgba(106, 127, 155, .08);
 }
 
 .timeline-item {
@@ -237,11 +237,11 @@ blockquote {
 }
 
 .quote-charlotte {
-    background-color: rgba(122, 47, 47, .1);
+    background-color: rgba(122, 47, 47, .08);
     font-family: allura;
 }
 
 .quote-emily {
-    background-color: rgba(106, 127, 155, .1);
+    background-color: rgba(106, 127, 155, .08);
     font-family: italianno;
 }
