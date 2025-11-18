@@ -80,6 +80,9 @@ First I will build a 5 page website. If that works out I will extend it to 8 pag
         - Movie Adaptations
         - All their books covers using grid layout
         - Info about Brontë visits and societies like the one in Banagher, Offaly
-        - 
+- ### emily.html
+    - Remember that you can have elements naturally flow into the right places (vertically) when only defining grid-template-columns (not rows) by the order that the content appears in the html page. This is how I got the order right on the emily page for the text-bio and the timeline!
+    - This repeatable page paid off. Just swapping the sides and adding some colour did make the pages a bit more distinct without reinventing the wheel
+    - Anne's page will have three links to TBAs at that point. Should I just have those bottom links going between the sisters? I think if I stuck with what I'm doing people would find the 6th, 7th, and 8th pages more easily. The fact that the sisters names come in the leftmost links makes them obvious sequential next stops.
 
     
