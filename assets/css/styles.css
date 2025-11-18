@@ -74,9 +74,19 @@ h3 {font-size: 24px}
 }
 
 /* This is the styling for the hero section */
+
+.hero .overlay {
+    background-color: rgba(39, 52, 71, .3);
+    padding: 40px 120px 160px;
+}
+
 .hero-landing {background-image: url("/assets/images/landing-moors.jpg");}
 .hero-overview{background-image: url("/assets/images/overview-haworth-parsonage.jpg");}
 .hero-charlotte{background-image: url("/assets/images/jane-eyre-rochester.png");}
+/* cancel the darkness of the overlay using filter: brightness() as the image is already very dark */
+.hero-emily{ background-image: url("/assets/images/emily-hero.png"); filter: brightness(1.4);}
+
+
 
 .hero {
     background-size: cover;
@@ -84,10 +94,7 @@ h3 {font-size: 24px}
     margin-top: 120px;
     color: #fcf5e5;
 }
-.hero .overlay {
-    background-color: rgba(39, 52, 71, .3);
-    padding: 40px 120px 160px;
-}
+
 .hero h1, .hero h2 {margin: 24px;}
 .hero a {color: #68d0b0}
 

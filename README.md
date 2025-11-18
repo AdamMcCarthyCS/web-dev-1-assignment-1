@@ -49,6 +49,10 @@ First I will build a 5 page website. If that works out I will extend it to 8 pag
     - You can see all my flexbox practice in the past [here](https://github.com/AdamMcCarthyCS/css-exercises/tree/main/foundations/flex) and some more use of flex in a landing page [here](https://github.com/AdamMcCarthyCS/project-odin-landing-page/tree/main)
     - I learned how to use google fonts [here](https://www.w3schools.com/css/css_font_google.asp)
     - [Allura Font](https://fonts.google.com/specimen/Allura) for the quote section
+    ### emily.html
+    - Hero image generated using chatGPT "Create an image of Catherine and Heathcliff in waist high grass in the rain in Wuthering Heights"
+    - Cancelled out dark overlay using filter: brightness() which I learned [here](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/filter-function/brightness)
+    
 
     #### Reflections:
 - ### landing.html
