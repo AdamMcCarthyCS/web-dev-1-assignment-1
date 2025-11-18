@@ -80,11 +80,11 @@ h3 {font-size: 24px}
     padding: 40px 120px 160px;
 }
 
-.hero-landing {background-image: url("/assets/images/landing-moors.jpg");}
-.hero-overview{background-image: url("/assets/images/overview-haworth-parsonage.jpg");}
-.hero-charlotte{background-image: url("/assets/images/jane-eyre-rochester.png");}
+.hero-landing {background-image: url("../images/landing-moors.jpg");}
+.hero-overview{background-image: url("../images/overview-haworth-parsonage.jpg");}
+.hero-charlotte{background-image: url("../images/jane-eyre-rochester.png");}
 /* cancel the darkness of the overlay using filter: brightness() as the image is already very dark */
-.hero-emily{ background-image: url("/assets/images/emily-hero.png"); filter: brightness(1.4);}
+.hero-emily{ background-image: url("../images/emily-hero.png"); filter: brightness(1.4);}
 
 
 
@@ -178,7 +178,7 @@ hr {
 
 .timeline {
     margin: 48px auto;
-    border-left: 3px solid #7a2f2f;
+    
     border-radius: 8px;
     padding: 16px;
     display: flex;
@@ -191,12 +191,14 @@ hr {
 
 .timeline-charlotte {
     grid-column: 1 / 2;
-    background-color: rgba(122, 47, 47, .08);
+    border-left: 3px solid #7a2f2f;
+    background-color: rgba(122, 47, 47, 0.08);
 }
 
 .timeline-emily {
     grid-column: 3 / 4;
-    background-color: rgba(106, 127, 155, .08);
+    border-left: 3px solid #6a7f9b;;
+    background-color: rgba(106, 127, 155, 0.08);
 }
 
 .timeline-item {

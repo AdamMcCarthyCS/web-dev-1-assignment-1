@@ -84,5 +84,8 @@ First I will build a 5 page website. If that works out I will extend it to 8 pag
     - Remember that you can have elements naturally flow into the right places (vertically) when only defining grid-template-columns (not rows) by the order that the content appears in the html page. This is how I got the order right on the emily page for the text-bio and the timeline!
     - This repeatable page paid off. Just swapping the sides and adding some colour did make the pages a bit more distinct without reinventing the wheel
     - Anne's page will have three links to TBAs at that point. Should I just have those bottom links going between the sisters? I think if I stuck with what I'm doing people would find the 6th, 7th, and 8th pages more easily. The fact that the sisters names come in the leftmost links makes them obvious sequential next stops.
+    - I made an absolute mess of the links that took half an hour to figure out. Basically if I want to use this more advanced folder structure I need to be careful that when I am on a page in the /pages folder I remember that I need to go up a level to go to assets/css (ie ../assets/css/styles.css), similarly...the other pages in the Pages folder can be reached with ./page while the index page needs ../index.html as its contained in the top level
+    - Github pages will not show background images also if the links are not right relative to where the page html file is. For example if you have a page in /pages, first you need to go up a level to root level (../) then you need to pass through assets into images (../assets/images/somephoto.jpg)
+    - Accents such as the ë in landing-anne-brontë.jpg also break github pages sometimes. Its better to keep the lettering standard for image naming
 
     
