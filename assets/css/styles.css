@@ -240,3 +240,8 @@ blockquote {
     background-color: rgba(122, 47, 47, .1);
     font-family: allura;
 }
+
+.quote-emily {
+    background-color: rgba(106, 127, 155, .1);
+    font-family: italianno;
+}
