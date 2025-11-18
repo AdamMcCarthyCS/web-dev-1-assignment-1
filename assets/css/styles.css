@@ -181,13 +181,22 @@ hr {
     border-left: 3px solid #7a2f2f;
     border-radius: 8px;
     padding: 16px;
-    grid-column: 1 / 2;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 16px auto;
     line-height: 1.75em;
-    background-color: rgba(122, 47, 47, .1)    ;
+    
+}
+
+.timeline-charlotte {
+    grid-column: 1 / 2;
+    background-color: rgba(122, 47, 47, .1);
+}
+
+.timeline-emily {
+    grid-column: 3 / 4;
+    background-color: rgba(106, 127, 155, .1);
 }
 
 .timeline-item {
@@ -196,10 +205,20 @@ hr {
 }
 
 
-.text-section.bio-right {
-    grid-column: 2 / 4;
+
+
+
+.text-section.bio-text {
     text-align: left;
     width: 80%;
+}
+
+.bio-right {
+    grid-column: 2 / 4;
+}
+
+.bio-left {
+    grid-column: 1 / 3;
 }
 
 /* This is for styling the quote section */
