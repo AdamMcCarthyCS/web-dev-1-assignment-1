@@ -197,8 +197,14 @@ hr {
 
 .timeline-emily {
     grid-column: 3 / 4;
-    border-left: 3px solid #6a7f9b;;
+    border-left: 3px solid #6a7f9b;
     background-color: rgba(106, 127, 155, 0.08);
+}
+
+.timeline-anne {
+    grid-column: 1 / 2;
+    border-left: 3px solid #6E8B55;
+    background-color: rgba(110, 139, 85, 0.08);
 }
 
 .timeline-item {
@@ -246,4 +252,9 @@ blockquote {
 .quote-emily {
     background-color: rgba(106, 127, 155, .08);
     font-family: italianno;
+}
+
+.quote-anne {
+    background-color: rgba(110, 139, 85, .08);
+    font-family: rochester;
 }
