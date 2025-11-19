@@ -178,7 +178,6 @@ hr {
 
 .timeline {
     margin: 48px auto;
-    
     border-radius: 8px;
     padding: 16px;
     display: flex;
@@ -192,19 +191,19 @@ hr {
 .timeline-charlotte {
     grid-column: 1 / 2;
     border-left: 3px solid #7a2f2f;
-    background-color: rgba(122, 47, 47, 0.08);
+    background-color: rgba(122, 47, 47, 0.15);
 }
 
 .timeline-emily {
     grid-column: 3 / 4;
     border-left: 3px solid #6a7f9b;
-    background-color: rgba(106, 127, 155, 0.08);
+    background-color: rgba(106, 127, 155, 0.15);
 }
 
 .timeline-anne {
     grid-column: 1 / 2;
     border-left: 3px solid #6E8B55;
-    background-color: rgba(110, 139, 85, 0.08);
+    background-color: rgba(110, 139, 85, 0.15);
 }
 
 .timeline-item {
@@ -245,16 +244,16 @@ blockquote {
 }
 
 .quote-charlotte {
-    background-color: rgba(122, 47, 47, .08);
+    background-color: rgba(122, 47, 47, .15);
     font-family: allura;
 }
 
 .quote-emily {
-    background-color: rgba(106, 127, 155, .08);
+    background-color: rgba(106, 127, 155, .15);
     font-family: italianno;
 }
 
 .quote-anne {
-    background-color: rgba(110, 139, 85, .08);
+    background-color: rgba(110, 139, 85, .15);
     font-family: rochester;
 }
