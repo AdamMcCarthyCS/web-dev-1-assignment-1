@@ -87,5 +87,28 @@ First I will build a 5 page website. If that works out I will extend it to 8 pag
     - I made an absolute mess of the links that took half an hour to figure out. Basically if I want to use this more advanced folder structure I need to be careful that when I am on a page in the /pages folder I remember that I need to go up a level to go to assets/css (ie ../assets/css/styles.css), similarly...the other pages in the Pages folder can be reached with ./page while the index page needs ../index.html as its contained in the top level
     - Github pages will not show background images also if the links are not right relative to where the page html file is. For example if you have a page in /pages, first you need to go up a level to root level (../) then you need to pass through assets into images (../assets/images/somephoto.jpg)
     - Accents such as the ë in landing-anne-brontë.jpg also break github pages sometimes. Its better to keep the lettering standard for image naming
+- ### anne.html
+    - Reusing the classes made it relatively painless to create anne's page. In fact I just had to copy Charlottes page and then change the content and accent colours
+    - I need to do a final check through of all the links and grammar of the text at the very end before submitting. Twice probably to make sure I dont miss anything.
+    - I think I have finally settled on the last three pages
+        - Quotes from personal letters of the Brontës which further hightlight their character. Should they all have different accent colours or the same accent? I think I would like to reuse the font from the individual quotes to make them stand out as different?
+            - inkwell and paper hero
+            - Hero link -> Most famous works
+            - Link to most famous works, bronte societies and overview
+        - A page with each of their most famous novels
+            - Old books hero
+            - Jane Eyre and Vilette for Charlotte
+            - Wuthering Heights for emily
+            - The Tenant of Wildfell Hall for Anne
+            - Each section should have a wrapped image of the book covers
+            - Hero link -> Bronte societies
+            - Links Bronte societies, home page, overview
+        - A page on Bronte Societies for more information
+            - Statue of the bronte sisters hero
+            - Hero link -> Home
+            - The one in Offaly
+            - The one most associated with the Brontes in the UK
+            - Perhaps the quote from Anne about being tired after reading to finish the site
+            - Also only two links. One to the home page and one to the overview
 
     
