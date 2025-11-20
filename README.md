@@ -110,5 +110,6 @@ First I will build a 5 page website. If that works out I will extend it to 8 pag
             - The one most associated with the Brontes in the UK
             - Perhaps the quote from Anne about being tired after reading to finish the site
             - Also only two links. One to the home page and one to the overview
-
+- ### letters.html
+    - Image for hero taken from [here](https://editions.covecollective.org/sites/default/files/styles/gallery_zoom/public/gallery/WritingRoom2.jpg?itok=wc7B1qLP)
     
