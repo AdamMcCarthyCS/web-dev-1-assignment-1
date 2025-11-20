@@ -1,3 +1,5 @@
+@import url(./nav-footer.css);
+
 /* General styling of elements */
 html * {
     /* makes it much easier to figure out the widths of everything */
@@ -20,58 +22,11 @@ h3 {font-size: 24px}
     margin: 0 auto;
 }
 
-#navigation a {
-    color: #fcf5e5;
-    text-decoration: none;
-    
-}
 
 
 
-/* The styling of the navigation used throughout the site */
 
 
-#navigation, #footer {
-    background-color: #273447;
-    padding: 24px;
-    color: #fcf5e5;
-}
-
-
-.nav-items, #footer {
-    display: flex;
-    align-items: center;
-    /* pushes the logo and links apart */
-    justify-content: space-between;
-}
-
-.logo {
-    font-size: 24px;
-    margin: 0px 24px;
-}
-
-#navigation ul {
-    
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    /* flexbox used to space the links (the children of the ul are flex items) */
-    display: flex;
-    gap: 32px; 
-}
-
-#navigation li {
-    padding: 4px 8px;
-    border-radius: 8px;
-}
-.active {
-    border: 2px solid #fcf5e5;
-}
-
-/* This is the styling for the footer for the whole site */
-#footer {
-    font-size: 14px;
-}
 
 /* This is the styling for the hero section */
 
