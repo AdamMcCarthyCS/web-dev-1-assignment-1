@@ -1,0 +1,29 @@
+/* This is for styling the quote section */
+
+blockquote {
+    width: 90%;
+    padding: 36px;
+    margin: 48px auto;
+    border-radius: 16px;
+    font-size: 48px;
+    line-height: 1.75em;
+}
+
+.citation {
+    text-align: right;
+}
+
+.quote-charlotte {
+    background-color: rgba(122, 47, 47, .15);
+    font-family: allura;
+}
+
+.quote-emily {
+    background-color: rgba(106, 127, 155, .15);
+    font-family: italianno;
+}
+
+.quote-anne {
+    background-color: rgba(110, 139, 85, .15);
+    font-family: rochester;
+}
