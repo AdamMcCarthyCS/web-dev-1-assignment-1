@@ -27,3 +27,7 @@ blockquote {
     background-color: rgba(110, 139, 85, .15);
     font-family: rochester;
 }
+
+.letter-quote {
+    font-size: 24px;
+}
