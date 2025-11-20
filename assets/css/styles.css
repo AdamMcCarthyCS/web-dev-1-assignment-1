@@ -1,3 +1,10 @@
+@import url(./nav-footer.css);
+@import url(./hero.css);
+@import url(./intro-text.css);
+@import url(./cards.css);
+@import url(./bio.css);
+@import url(./quotes.css);
+
 /* General styling of elements */
 html * {
     /* makes it much easier to figure out the widths of everything */
@@ -20,100 +27,6 @@ h3 {font-size: 24px}
     margin: 0 auto;
 }
 
-#navigation a {
-    color: #fcf5e5;
-    text-decoration: none;
-    
-}
-
-
-
-/* The styling of the navigation used throughout the site */
-
-
-#navigation, #footer {
-    background-color: #273447;
-    padding: 24px;
-    color: #fcf5e5;
-}
-
-
-.nav-items, #footer {
-    display: flex;
-    align-items: center;
-    /* pushes the logo and links apart */
-    justify-content: space-between;
-}
-
-.logo {
-    font-size: 24px;
-    margin: 0px 24px;
-}
-
-#navigation ul {
-    
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    /* flexbox used to space the links (the children of the ul are flex items) */
-    display: flex;
-    gap: 32px; 
-}
-
-#navigation li {
-    padding: 4px 8px;
-    border-radius: 8px;
-}
-.active {
-    border: 2px solid #fcf5e5;
-}
-
-/* This is the styling for the footer for the whole site */
-#footer {
-    font-size: 14px;
-}
-
-/* This is the styling for the hero section */
-
-.hero .overlay {
-    background-color: rgba(39, 52, 71, .3);
-    padding: 40px 120px 160px;
-}
-
-.hero-landing {background-image: url("../images/landing-moors.jpg");}
-.hero-overview{background-image: url("../images/overview-haworth-parsonage.jpg");}
-.hero-charlotte{background-image: url("../images/jane-eyre-rochester.png");}
-/* cancel the darkness of the overlay using filter: brightness() as the image is already very dark */
-.hero-emily{ background-image: url("../images/emily-hero.png"); filter: brightness(1.4); -webkit-filter: brightness(1.4);}
-.hero-anne{ background-image: url(../images/hero-anne-bronte.png); filter: brightness(1.2); -webkit-filter: brightness(1.2); }
-
-
-.hero {
-    background-size: cover;
-    text-align: center;
-    margin-top: 120px;
-    color: #fcf5e5;
-}
-
-.hero h1, .hero h2 {margin: 24px;}
-.hero a {color: #68d0b0}
-
-
-/* This is the styling of the intro section */
-
-.intro-section {
-    width: 60%;
-    margin: 64px auto;
-    font-family: serif;
-    text-align: center;
-    line-height: 1.75em;
-
-}
-
-.intro-section p {
-    padding: 0;
-    margin: 48px 0px;
-}
 
 /* This is the HR Styling */
 
@@ -126,134 +39,9 @@ hr {
 .overview-hr {border-color: #866f52}
 
 
-/* This is the styling for the text section */
-
-.text-section {
-    width: 70%;
-    margin: 48px auto;
-    line-height: 1.75em;
-    text-align: center;
-}
-
-.text-section p {
-    text-align: left;
-}
-
-/* Styling the card section */
-
-.cards {
-    display: grid;
-    column-gap: 32px;
-    grid-template-columns: repeat(3, 1fr);
-    text-align: center;
-    margin-bottom: 80px;
-    line-height: 1.75em;
-    
-}
-
-.card .caption {
-    font-size: 24px;
-    font-weight: 600;
-}
-
-.card img {
-    width: 100%;
-    border-radius: 4px;
-}
-
-.card a {
-    text-decoration: none;
-    color: #68d0b0;
-    font-weight: 600;
-}
-
-/* This is the styling for the bio section */
-
-.bio-section {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 48px;
-    margin: 64px auto 48px;
-}
-
-.timeline {
-    margin: 48px auto;
-    border-radius: 8px;
-    padding: 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 16px auto;
-    line-height: 1.75em;
-    
-}
-
-.timeline-charlotte {
-    grid-column: 1 / 2;
-    border-left: 3px solid #7a2f2f;
-    background-color: rgba(122, 47, 47, 0.15);
-}
-
-.timeline-emily {
-    grid-column: 3 / 4;
-    border-left: 3px solid #6a7f9b;
-    background-color: rgba(106, 127, 155, 0.15);
-}
-
-.timeline-anne {
-    grid-column: 1 / 2;
-    border-left: 3px solid #6E8B55;
-    background-color: rgba(110, 139, 85, 0.15);
-}
-
-.timeline-item {
-    font-family: sans-serif;
-    margin: 16px 0;
-}
 
 
 
 
 
-.text-section.bio-text {
-    text-align: left;
-    width: 80%;
-}
 
-.bio-right {
-    grid-column: 2 / 4;
-}
-
-.bio-left {
-    grid-column: 1 / 3;
-}
-
-/* This is for styling the quote section */
-
-blockquote {
-    width: 90%;
-    padding: 36px;
-    margin: 48px auto;
-    border-radius: 16px;
-    font-size: 48px;
-    line-height: 1.75em;
-}
-
-.citation {
-    text-align: right;
-}
-
-.quote-charlotte {
-    background-color: rgba(122, 47, 47, .15);
-    font-family: allura;
-}
-
-.quote-emily {
-    background-color: rgba(106, 127, 155, .15);
-    font-family: italianno;
-}
-
-.quote-anne {
-    background-color: rgba(110, 139, 85, .15);
-    font-family: rochester;
-}
