@@ -4,6 +4,8 @@
 @import url(./cards.css);
 @import url(./bio.css);
 @import url(./quotes.css);
+@import url(./notable-works.css);
+
 
 /* General styling of elements */
 html * {
@@ -37,9 +39,6 @@ hr {
 
 .landing-hr {border-color:#1e1c1a}
 .overview-hr {border-color: #866f52}
-
-
-
 
 
 
