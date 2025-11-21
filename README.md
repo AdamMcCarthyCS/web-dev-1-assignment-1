@@ -53,8 +53,15 @@ First I will build a 5 page website. If that works out I will extend it to 8 pag
     - Cancelled out dark overlay using filter: brightness() which I learned [here](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/filter-function/brightness)
     ### letters.html
     - Image for hero taken from [here](https://editions.covecollective.org/sites/default/files/styles/gallery_zoom/public/gallery/WritingRoom2.jpg?itok=wc7B1qLP)
-    -
-
+    ### notable-works.html
+    - The fr unit was used to give whatever space divided equally between the two columns. I learned that [here](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-advanced-grid-properties#fractional-units)
+    #### Images
+    - Four of the images are low res amazon thumbnails. I have not downloaded the images, just used their links. As far as I can tell thats okay going by this [webpage](https://www.osborneclarke.com/insights/can-link-frame-third-party-content-without-permission?) 
+    - [Poems by Currer, Ellis, and Acton Bell](https://en.wikipedia.org/wiki/Poems_by_Currer,_Ellis,_and_Acton_Bell#/media/File:Bronte_poems2.jpg)
+    - [Jane Eyre, Penguin Edition](https://m.media-amazon.com/images/I/81pwJjgcwwL._SY385_.jpg)
+    - [Villette](ttps://m.media-amazon.com/images/I/61qk4BTy82L._SY385_.jpg)
+    - [Wuthering Heights](https://m.media-amazon.com/images/I/81T34Sem-tL._SY385_.jpg)
+    - [The Tenant of Wildfell Hall](https://m.media-amazon.com/images/I/51gJaXujOBL._SY385_.jpg)
     #### Reflections:
 - ### landing.html
     - I started with the idea of using grid for the main container and ended up not using it! Lets hope that doesn't evolve into a disaster!
@@ -117,4 +124,7 @@ First I will build a 5 page website. If that works out I will extend it to 8 pag
     - I have rearranged the css into separate files. The main learning from this is that the @import url() has to be at the top of the main styles.css and can only be preceeded by other @import statements, no comments, or css can come before it
     - The headers for the letter quote sections are a bit basic. Could I come up with something more fancy? Or am I just overthinking it? What do people generally do on other sites that are content heavy? Look some up, but look at similar genre, i.e. literature sites/bronte sites
     - My experience of using chatGPT generated Hero images has been fairly positive. However, there is the argument that that is generated from other peoples artwork embedded in in generative model. I really like the images though. My friends in Lighthouse studios and Cartoon Saloon would not be happy. I dont know what the answer to this is.
-    
+- ### noteable-works.html
+    - Using a grid layout with two columns worked well here. Now that I'm basically at the end I feel that I didnt lose out by not going with my 12 column grid idea that I had at the beginning. It turned out fairly good.
+    - I didnt realise that you can link amazon thumbnails without breaching copyright. You just use a live link to the thumbnail on amazon and dont actually download the image and its allowed. Thats great for a literary page.
+    - I was a bit confused about how to reuse the .text-section again as i wanted the line spacing and width properties. So I ended up adding another css page. I guess you cant DRY everything? I will keep an eye out on how to break this down further so I can reuse as much as possible. I think it will just come with practice.
