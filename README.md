@@ -23,7 +23,6 @@ First I will build a 5 page website. If that works out I will extend it to 8 pag
     - [directory structure](https://www.geeksforgeeks.org/javascript/file-and-folder-organization-best-practices-for-web-development/)
 
     - [parchment background colour](https://htmlcolorcodes.com/colors/parchment/)
-    - [12 column grid](https://www.w3schools.com/css/css_grid_12column.asp)
     - [css repeat function](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-advanced-grid-properties#repeat)
     - [grid column span shorthand syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement#the_grid-column_and_grid-row_shorthands)
     - [flexbox - styling a nav](https://github.com/AdamMcCarthyCS/css-exercises/tree/main/foundations/flex)
@@ -52,7 +51,9 @@ First I will build a 5 page website. If that works out I will extend it to 8 pag
     ### emily.html
     - Hero image generated using chatGPT "Create an image of Catherine and Heathcliff in waist high grass in the rain in Wuthering Heights"
     - Cancelled out dark overlay using filter: brightness() which I learned [here](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/filter-function/brightness)
-    
+    ### letters.html
+    - Image for hero taken from [here](https://editions.covecollective.org/sites/default/files/styles/gallery_zoom/public/gallery/WritingRoom2.jpg?itok=wc7B1qLP)
+    -
 
     #### Reflections:
 - ### landing.html
@@ -111,5 +112,9 @@ First I will build a 5 page website. If that works out I will extend it to 8 pag
             - Perhaps the quote from Anne about being tired after reading to finish the site
             - Also only two links. One to the home page and one to the overview
 - ### letters.html
-    - Image for hero taken from [here](https://editions.covecollective.org/sites/default/files/styles/gallery_zoom/public/gallery/WritingRoom2.jpg?itok=wc7B1qLP)
+    - Reusing the quotes section css worked well. I think sticking with an easier to read font was a good idea as the language used in the letters is quite archaic
+    - For the next section I think I should include the poetry book they published together as its their first publication
+    - I have rearranged the css into separate files. The main learning from this is that the @import url() has to be at the top of the main styles.css and can only be preceeded by other @import statements, no comments, or css can come before it
+    - The headers for the letter quote sections are a bit basic. Could I come up with something more fancy? Or am I just overthinking it? What do people generally do on other sites that are content heavy? Look some up, but look at similar genre, i.e. literature sites/bronte sites
+    - My experience of using chatGPT generated Hero images has been fairly positive. However, there is the argument that that is generated from other peoples artwork embedded in in generative model. I really like the images though. My friends in Lighthouse studios and Cartoon Saloon would not be happy. I dont know what the answer to this is.
     
