@@ -1,0 +1,36 @@
+.notable {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.image-works {
+    width: 200px;
+    margin: 20px;
+    /* border: 2px solid #866f52 */
+}
+.image-left{
+    
+    float: left;
+    
+}
+
+.works-text-section {
+    line-height: 1.75em;
+    text-align:justify
+}
+
+.works-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 24px;
+    margin: 48px auto;
+    line-height: 1.75em;
+
+}
+
+.charlotte-heading {
+    text-align: center;
+    /* This is a bit of a hack (using negative margin). I wanted to keep the works classes rules unchanged for the sections underneath but pull down charlotte's title */
+    margin-bottom: -48px;
+    
+}
