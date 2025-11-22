@@ -27,5 +27,10 @@
 }
 
 .cards-haworth {
+    display: grid;
     grid-template-columns: 1fr 1fr;
+    text-align: left;
+    align-items: center;
+    margin-bottom: 48px;
+    line-height: 1.75em;
 }
