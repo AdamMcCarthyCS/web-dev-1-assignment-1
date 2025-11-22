@@ -13,6 +13,7 @@
 .hero-anne{ background-image: url(../images/hero-anne-bronte.png); filter: brightness(1.2); -webkit-filter: brightness(1.2); }
 .hero-letters{background-image: url(../images/bronte-writing-desk.jpg)}
 .hero-notable-works{background-image: url(../images/notable-works-hero.jpeg);}
+.hero-haworth{background-image: url(../images/haworth-hero.jpg);}
 .hero {
     background-size: cover;
     text-align: center;

@@ -62,6 +62,9 @@ First I will build a 5 page website. If that works out I will extend it to 8 pag
     - [Villette](ttps://m.media-amazon.com/images/I/61qk4BTy82L._SY385_.jpg)
     - [Wuthering Heights](https://m.media-amazon.com/images/I/81T34Sem-tL._SY385_.jpg)
     - [The Tenant of Wildfell Hall](https://m.media-amazon.com/images/I/51gJaXujOBL._SY385_.jpg)
+    ### haworth.html
+    - Hero image: [Haworth Village](https://commons.wikimedia.org/wiki/File:Main_Street_in_Haworth_-_geograph.org.uk_-_2649201.jpg)
+
     #### Reflections:
 - ### landing.html
     - I started with the idea of using grid for the main container and ended up not using it! Lets hope that doesn't evolve into a disaster!
