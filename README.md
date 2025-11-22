@@ -64,7 +64,11 @@ First I will build a 5 page website. If that works out I will extend it to 8 pag
     - [The Tenant of Wildfell Hall](https://m.media-amazon.com/images/I/51gJaXujOBL._SY385_.jpg)
     ### haworth.html
     - Hero image: [Haworth Village](https://commons.wikimedia.org/wiki/File:Main_Street_in_Haworth_-_geograph.org.uk_-_2649201.jpg)
-
+    - The old school house [image](https://commons.wikimedia.org/wiki/File:Haworth,_the_old_school_house.JPG)
+    - St Michaels and All Angels church [image](https://commons.wikimedia.org/wiki/File:St_Michael_and_All_Angel%27s_Church,_Haworth_-_geograph.org.uk_-_922569.jpg)
+    - Bronte Waterfall [image](https://commons.wikimedia.org/wiki/File:Bronte_bridge_and_waterfalls_-_geograph.org.uk_-_630928.jpg)
+    - Top Withens in the moors near Haworth [image](https://www.flickr.com/photos/marthaelhadidi/8010394987/)
+    - Bronte Sculpture at Bronte Parsonage Museum [image](https://commons.wikimedia.org/wiki/File:Sculpture_of_the_Bront%C3%AB_Sisters,_Haworth.jpg)
     #### Reflections:
 - ### landing.html
     - I started with the idea of using grid for the main container and ended up not using it! Lets hope that doesn't evolve into a disaster!

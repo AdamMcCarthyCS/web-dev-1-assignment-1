@@ -41,5 +41,7 @@ hr {
 .overview-hr {border-color: #866f52}
 
 
-
+.heading {
+    text-align: center;
+}
 

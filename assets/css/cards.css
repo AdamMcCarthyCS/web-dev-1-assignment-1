@@ -25,3 +25,7 @@
     color: #68d0b0;
     font-weight: 600;
 }
+
+.cards-haworth {
+    grid-template-columns: 1fr 1fr;
+}
