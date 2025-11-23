@@ -1,15 +1,20 @@
 <!DOCTYPE html>
+<!--Added language and character set for semantic correctness-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Emily Brontë</title>
+    <!--Stylesheet link-->
     <link rel="stylesheet" href="../assets/css/styles.css">
-    <!--Add google font-->
+    <!--I have linked a google different google font for each of the three sisters quotes at the bottom of the page to give each page some individuality-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
 </head>
 <body>
+
+    <!--This is the navigation bar that is shared by all pages and styled with flexbox-->
+    <!--Note the navigation sits outside of the 1100px container so the content is max width 1100px and the nav bar background takes up the full width of the page-->
     <div id="navigation">
         <div class="container">
             <div class="nav-items">
@@ -27,7 +32,10 @@
             </div>
         </div>
     </div>
+
+
     <div class="container">
+        <!--Hero section the width of the 1100px container-->
         <div class="hero hero-emily">
             <div class="overlay">
                 <h1>Emily Brontë</h1>
@@ -35,6 +43,8 @@
                 <h3><a href="./anne.html">Next: Meet Anne Brontë &#8594;</a></h3>
             </div>
         </div>
+
+        <!--Bio Section created using grid with alternating timeline and text on the left and right-->
         <div class="bio-section">
             <div class="text-section bio-text bio-left">
                 <p>Emily Brontë started writing early, creating the world of Gondal with her sister, Anne. This imaginary world kept developing between them well into their adulthood, helping Emily hone the skill of writing scenes of violence, betrayal, and intrigue that featured, in a different setting and time, in <em>Wuthering Heights</em>.</p>
@@ -43,6 +53,7 @@
                 <p>Death was a constant shadow over the Brontë household. The Parsonage was surrounded by a graveyard so overcrowded that the village water supply was poisoned. Emily's mother, sisters, and aunt had died while she was young. The supernatural featured prominently in <em>Wuthering Heights</em> as a force that couldn't separate those who loved each other.</p>
                 <p>Emily remains one of the great enigmas of English literature. While Charlotte described her as <em>"stronger than a man, simpler than a child,"</em> she was deeply introspective. Some argue that in her novel, Hindley's descent into addiction and Heathcliff's into madness were both inspired by her brother Branwell's dissolution through addiction, an event she lived through firsthand, while also taking on the responsibility of being his primary carer.</p>
             </div>
+            <!--Timeline styled to match the quote section using strong and em tags for semantic correctness-->
             <div class="timeline timeline-emily">
                 <div class="timeline-item">— <strong>1818</strong> — Emily Jane Brontë is born in Thornton, West Yorkshire</div>
                 <div class="timeline-item">— <strong>1825</strong> — Maria and Elizabeth Brontë die, drawing Emily, Anne, and Charlotte closer together</div>
@@ -53,11 +64,14 @@
                 <div class="timeline-item">— <strong>1848</strong> — Dies at age 30 from tuberculosis</div>
             </div>
         </div>
+
+        <!--Quote section which is reused in each of the three sisters pages with different accent colours-->
         <blockquote class="quote-section quote-emily">
             <p class="quote">"I've dreamt in my life dreams that have stayed with me ever after, and changed my ideas: they've gone through and through me, like wine through water, and altered the colour of my mind."</p>
             <p class="citation">— Emily Brontë, <cite>Wuthering Heights</cite></p>
         </blockquote>
         
+        <!--Cards section created using grid that will be repeatedly used throughout the site for both site content and links at the bottom of every page-->
         <div class="cards">
             <div class="card">
                 <a href="./anne.html">Meet Anne &#8594;</a>
@@ -70,6 +84,8 @@
             </div>
         </div>
     </div>
+
+    <!--Footer section. Similar to the header the footer content is within the 1100px container but the footer background extends to the width of the view screen-->
     <div id="footer">
         <div class="container">
             <div>&copy; 2025 Adam McCarthy</div>

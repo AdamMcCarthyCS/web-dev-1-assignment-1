@@ -1,12 +1,16 @@
 <!DOCTYPE html>
+<!--Added language and character set for semantic correctness-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
+    <!--Stylesheet link-->
     <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
+
 <body>
-    
+    <!--This is the navigation bar that is shared by all pages and styled with flexbox-->
+    <!--Note the navigation sits outside of the 1100px container so the content is max width 1100px and the nav bar background takes up the full width of the page-->
     <div id="navigation">
         <div class="container">
             <div class="nav-items">
@@ -24,7 +28,9 @@
             </div>
         </div>
     </div>
+
     <div class="container">
+        <!--Hero section the width of the 1100px container-->
         <div class="hero hero-landing">
             <div class="overlay">
                 <h1>The Brontë Sisters</h1>
@@ -32,10 +38,16 @@
                 <h3><a href="./pages/overview.html">Explore &#8594;</a></h3>
             </div>
         </div>
+
+        <!--Introduction section for the website-->
         <div class="intro-section">
             <p>The Brontë sisters, from remote Haworth in the north of England, have a literary legacy that has spanned over 200 years. All three sisters, Charlotte, Emily, and Anne, were forced to publish under male pseudonyms, and their themes and subject matter were considered shocking for their time. But the Brontës writing revealed that agency, potential, and inner resolve were at the heart of the Victorian woman.</p>
         </div>
+        
+        <!--Horizontal rule to separate sections in the page-->
         <hr class="landing-hr">
+        
+        <!--Cards section created using grid that will be repeatedly used throughout the site for both site content and links at the bottom of every page-->
         <div class="cards">
             <div class="card">
                 <img src="./assets/images/landing-charlotte-bronte.jpg" alt="Charlotte Brontë seated portrait">
@@ -57,6 +69,8 @@
             </div>
             </div>
     </div>
+
+    <!--Footer section. Similar to the header the footer content is within the 1100px container but the footer background extends to the width of the view screen-->
     <div id="footer">
         <div class="container">
             <div>&copy; 2025 Adam McCarthy</div>
