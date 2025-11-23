@@ -3,16 +3,17 @@
     margin: 0 auto;
 }
 
+/* set width of all thumbnail images from amazon to be the same */
 .image-works {
     width: 200px;
     margin: 20px;
-    /* border: 2px solid #866f52 */
 }
 
 .image-left{ 
     float: left;
 }
 
+/* Custom two column grid which is repeated twice on the works section */
 .works-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -23,6 +24,7 @@
 
 }
 
+/* Adjustment to the charlotte bronte heading so it looks better visually on notable-works page */
 .charlotte-heading {
     text-align: center;
     /* This is a bit of a hack (using negative margin). I wanted to keep the works classes rules unchanged for the sections underneath but pull down charlotte's title */

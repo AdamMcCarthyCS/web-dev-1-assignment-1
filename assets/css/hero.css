@@ -1,10 +1,12 @@
 /* This is the styling for the hero section */
 
+/* This overlay darkens all hero images across the site so hero text can be more easily read for accessibility */
 .hero .overlay {
     background-color: rgba(39, 52, 71, .3);
     padding: 40px 120px 160px;
 }
 
+/* set the hero images for all pages on the site */
 .hero-landing {background-image: url("../images/landing-moors.jpg");}
 .hero-overview{background-image: url("../images/overview-haworth-parsonage.jpg");}
 .hero-charlotte{background-image: url("../images/jane-eyre-rochester.png");}
@@ -14,6 +16,8 @@
 .hero-letters{background-image: url(../images/bronte-writing-desk.jpg)}
 .hero-notable-works{background-image: url(../images/notable-works-hero.jpeg);}
 .hero-haworth{background-image: url(../images/haworth-hero.jpg);}
+
+/* set the text colour and alignment for all 8 pages with one ruleset */
 .hero {
     background-size: cover;
     text-align: center;
@@ -21,5 +25,8 @@
     color: #fcf5e5;
 }
 
+/* set the margin for h1 and h2 elements in the hero sections on all 8 pages */
 .hero h1, .hero h2 {margin: 24px;}
+
+/* Set the links to be the site accent colour for links on all hero sections across the site */
 .hero a {color: #68d0b0}

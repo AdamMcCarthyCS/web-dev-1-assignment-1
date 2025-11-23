@@ -13,6 +13,7 @@ blockquote {
     text-align: right;
 }
 
+/* This is where custom accent colours and fonts are added for each quote section */
 .quote-charlotte {
     background-color: rgba(122, 47, 47, .15);
     font-family: allura;
@@ -28,8 +29,8 @@ blockquote {
     font-family: rochester;
 }
 
+/* letter quotes made a bit larger as non standard grammar and vocabulary used in them */
 .letter-quote {
     font-size: 24px;
 }
 
-.letters-heading{text-align: center;}

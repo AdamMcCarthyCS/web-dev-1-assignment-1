@@ -1,11 +1,13 @@
 /* The styling of the navigation used throughout the site */
 
+/* sets navigation text colour and removes underline */
 #navigation a {
     color: #fcf5e5;
     text-decoration: none;
     
 }
 
+/* sets footer colours to match navigation and adds padding */
 #navigation, #footer {
     background-color: #273447;
     padding: 24px;
@@ -13,6 +15,7 @@
 }
 
 
+/* Uses flexbox to push the links and logo to opposite ends of the nav */
 .nav-items, #footer {
     display: flex;
     align-items: center;
@@ -26,12 +29,13 @@
 }
 
 #navigation ul {
-    
+    /* removes bullet points before list items */
     list-style: none;
     padding: 0;
     margin: 0;
     /* flexbox used to space the links (the children of the ul are flex items) */
     display: flex;
+    /* puts 32px gap between every pair of flex-items */
     gap: 32px; 
 }
 
@@ -43,7 +47,7 @@
     border: 2px solid #fcf5e5;
 }
 
-/* This is the styling for the footer for the whole site */
+/* use smaller font in footer text */
 #footer {
     font-size: 14px;
 }

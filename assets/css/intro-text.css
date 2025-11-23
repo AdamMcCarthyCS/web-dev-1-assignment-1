@@ -1,4 +1,4 @@
-/* This is the styling of the intro section */
+/* This is the styling of the intro section that is reused across the site*/
 
 .intro-section {
     width: 60%;
@@ -14,7 +14,7 @@
     margin: 48px 0px;
 }
 
-/* This is the styling for the text section */
+/* This is the styling for the text section that is reused throughout the site */
 
 .text-section {
     width: 70%;

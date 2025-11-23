@@ -1,5 +1,6 @@
 /* Styling the card section */
 
+/* make 3 column card grid section that is reusable across site */
 .cards {
     display: grid;
     column-gap: 32px;
@@ -15,17 +16,20 @@
     font-weight: 600;
 }
 
+/* make all card images 100% of the width of the flex column containing them */
 .card img {
     width: 100%;
     border-radius: 4px;
 }
 
+/* make all links in the cards have the site accent colour for links */
 .card a {
     text-decoration: none;
     color: #68d0b0;
     font-weight: 600;
 }
 
+/* make a specific card layout for the haworth places section that has just two columns */
 .cards-haworth {
     display: grid;
     grid-template-columns: 1fr 1fr;
