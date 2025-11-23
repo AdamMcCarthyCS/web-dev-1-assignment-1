@@ -1,0 +1,60 @@
+/* This is the styling for the bio section */
+
+/* Use a 1/3 2/3 layout for the timeline and content (three columns)*/
+.bio-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 48px;
+    margin: 64px auto 48px;
+}
+
+/* Make the overall timeline structure as a flex column */
+.timeline {
+    margin: 48px auto;
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 16px auto;
+    line-height: 1.75em;
+    
+}
+
+/* position the timelines to the left and right with different accent colours */
+.timeline-charlotte {
+    grid-column: 1 / 2;
+    border-left: 3px solid #7a2f2f;
+    background-color: rgba(122, 47, 47, 0.15);
+}
+
+.timeline-emily {
+    grid-column: 3 / 4;
+    border-left: 3px solid #6a7f9b;
+    background-color: rgba(106, 127, 155, 0.15);
+}
+
+.timeline-anne {
+    grid-column: 1 / 2;
+    border-left: 3px solid #6E8B55;
+    background-color: rgba(110, 139, 85, 0.15);
+}
+
+.timeline-item {
+    font-family: sans-serif;
+    margin: 16px 0;
+}
+
+/* position text to alternate side to timeline with these classes */
+.text-section.bio-text {
+    text-align: left;
+    width: 80%;
+}
+
+.bio-right {
+    grid-column: 2 / 4;
+}
+
+.bio-left {
+    grid-column: 1 / 3;
+}

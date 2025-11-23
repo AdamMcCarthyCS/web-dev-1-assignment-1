@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--Added language and character set for semantic correctness-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Charlotte Brontë</title>
+    <!--Stylesheet link-->
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <!--I have linked a google different google font for each of the three sisters quotes at the bottom of the page to give each page some individuality-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!--This is the navigation bar that is shared by all pages and styled with flexbox-->
+    <!--Note the navigation sits outside of the 1100px container so the content is max width 1100px and the nav bar background takes up the full width of the page-->
+    <div id="navigation">
+        <div class="container">
+            <div class="nav-items">
+                <div class="logo">The Brontës</div>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./overview.html">Overview</a></li>
+                    <li class="active"><a href="">Charlotte</a></li>
+                    <li><a href="./emily.html">Emily</a></li>
+                    <li><a href="./anne.html">Anne</a></li>
+                    <li><a href="./personal-letters.html">Letters</a></li>
+                    <li><a href="./notable-works.html">Notable Works</a></li>
+                    <li><a href="./haworth.html">Haworth</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!--Hero section the width of the 1100px container-->
+        <div class="hero hero-charlotte">
+            <div class="overlay">
+                <h1>Charlotte Brontë</h1>
+                <h2>Celebrity authoress of her time</h2>
+                <h3><a href="./emily.html">Next: Meet Emily Brontë &#8594;</a></h3>
+            </div>
+        </div>
+
+        <!--Bio Section created using grid with alternating timeline and text on the left and right-->
+        <div class="bio-section">
+            <!--Timeline styled to match the quote section using strong and em tags for semantic correctness-->
+            <div class="timeline timeline-charlotte">
+                <div class="timeline-item">— <strong>1816</strong> — Born at Thornton, Yorkshire</div>
+                <div class="timeline-item">— <strong>1821</strong> — Attended Cowan Bridge School for clergy children</div>
+                <div class="timeline-item">— <strong>1842</strong> — Joined the Pensionnat Heger, Brussels as a tutor</div>
+                <div class="timeline-item">— <strong>1847</strong> — Published Jane Eyre</div>
+                <div class="timeline-item">— <strong>1853</strong> — Published Villette</div>
+                <div class="timeline-item">— <strong>1854</strong> — Married Arthur Bell Nicholls</div>
+                <div class="timeline-item">— <strong>1855</strong> — Died aged 38 along with her unborn child due to severe morning sickness</div>
+            </div>
+            <div class="text-section bio-text bio-right">
+                <p>Charlotte Brontë was the only one of the three sisters to experience lasting fame and recognition in her lifetime. She became a close friend of fellow author Elizabeth Gaskell and mixed with London literary society, including the widely lauded William Thackeray, who was a disappointment to her when they met in person.</p>
+                <p>She had an incredibly strong moral compass, influenced heavily by her Anglican faith, although even there she was she was characteristically introspective and critical, once remarking sardonically that she knew clergymen too well to consider any of them infallible.</p>
+                <p>Her early writing with her brother Branwell and her sisters about the imaginary kingdom of Angria showed a remarkable imagination. This endured throughout her short but extraordinary life.</p>
+                <p>She was fiercely independent, and in later life, after her sisters had passed, she took sole charge of preserving their literary legacy.</p>
+                <p>An intensely shy but emotionally passionate woman, she struggled socially, even though she longed for love and connection, which she eventually and briefly found with her father’s curate, Arthur Bell Nicholls. But unfortunately the Brontë family lineage died with her.</p>
+            </div>
+        </div>
+        
+        <!--Quote section which is reused in each of the three sisters pages with different accent colours-->
+        <blockquote class="quote-section quote-charlotte">
+            <p class="quote">“I am no bird; and no net ensnares me: I am a free human being with an independent will.”</p>
+            <p class="citation">— Charlotte Brontë, <cite>Jane Eyre</cite></p>
+        </blockquote>
+        
+        <!--Cards section created using grid that will be repeatedly used throughout the site for both site content and links at the bottom of every page-->
+        <div class="cards">
+            <div class="card">
+                <a href="./emily.html">Meet Emily &#8594;</a>
+            </div>
+            <div class="card">
+                <a href="./anne.html">Meet Anne &#8594;</a>
+            </div>
+            <div class="card">
+                <a href="./personal-letters.html">Letter Excerpts &#8594;</a>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer section. Similar to the header the footer content is within the 1100px container but the footer background extends to the width of the view screen-->
+    <div id="footer">
+        <div class="container">
+            <div>&copy; 2025 Adam McCarthy</div>
+        </div>
+    </div>
+</body>
+</html>

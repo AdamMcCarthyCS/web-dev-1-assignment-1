@@ -1,0 +1,28 @@
+/* This is the styling of the intro section that is reused across the site*/
+
+.intro-section {
+    width: 60%;
+    margin: 64px auto;
+    font-family: serif;
+    text-align: center;
+    line-height: 1.75em;
+
+}
+
+.intro-section p {
+    padding: 0;
+    margin: 48px 0px;
+}
+
+/* This is the styling for the text section that is reused throughout the site */
+
+.text-section {
+    width: 70%;
+    margin: 48px auto;
+    line-height: 1.75em;
+    text-align: center;
+}
+
+.text-section p {
+    text-align: left;
+}

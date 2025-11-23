@@ -1,0 +1,51 @@
+/* imported stylesheets */
+@import url(./nav-footer.css);
+@import url(./hero.css);
+@import url(./intro-text.css);
+@import url(./cards.css);
+@import url(./bio.css);
+@import url(./quotes.css);
+@import url(./notable-works.css);
+
+/* General styling of elements */
+
+html * {
+    /* makes it much easier to figure out the widths of everything */
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    background-color: #fcf5e5;
+    color: #1e1c1a;
+    
+}
+
+h1 {font-size: 40px}
+h2 {font-size: 32px}
+h3 {font-size: 24px}
+
+/* !!Major Design Component!! - Make text areas of all pages 1100px */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+/* This is the HR Styling */
+
+hr {
+    border: solid 1px;
+    /* Allows nice gap matching other sections with 48px above and below */
+    margin: 48px 0px;
+}
+
+.landing-hr {border-color:#1e1c1a}
+.overview-hr {border-color: #866f52}
+
+
+/* Centres several H2 headings throughout the site */
+.heading {
+    text-align: center;
+}
+

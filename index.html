@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--Added language and character set for semantic correctness-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <!--Stylesheet link-->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+    <!--This is the navigation bar that is shared by all pages and styled with flexbox-->
+    <!--Note the navigation sits outside of the 1100px container so the content is max width 1100px and the nav bar background takes up the full width of the page-->
+    <div id="navigation">
+        <div class="container">
+            <div class="nav-items">
+                <div class="logo">The Brontës</div>
+                <ul>
+                    <li class="active"><a href="./index.html">Home</a></li>
+                    <li><a href="./pages/overview.html">Overview</a></li>
+                    <li><a href="./pages/charlotte.html">Charlotte</a></li>
+                    <li><a href="./pages/emily.html">Emily</a></li>
+                    <li><a href="./pages/anne.html">Anne</a></li>
+                    <li><a href="./pages/personal-letters.html">Letters</a></li>
+                    <li><a href="./pages/notable-works.html">Notable Works</a></li>
+                    <li><a href="./pages/haworth.html">Haworth</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!--Hero section the width of the 1100px container-->
+        <div class="hero hero-landing">
+            <div class="overlay">
+                <h1>The Brontë Sisters</h1>
+                <h2>Three powerful voices that changed English literature</h2>
+                <h3><a href="./pages/overview.html">Explore &#8594;</a></h3>
+            </div>
+        </div>
+
+        <!--Introduction section for the website-->
+        <div class="intro-section">
+            <p>The Brontë sisters, from remote Haworth in the north of England, have a literary legacy that has spanned over 200 years. All three sisters, Charlotte, Emily, and Anne, were forced to publish under male pseudonyms, and their themes and subject matter were considered shocking for their time. But the Brontës writing revealed that agency, potential, and inner resolve were at the heart of the Victorian woman.</p>
+        </div>
+        
+        <!--Horizontal rule to separate sections in the page-->
+        <hr class="landing-hr">
+        
+        <!--Cards section created using grid that will be repeatedly used throughout the site for both site content and links at the bottom of every page-->
+        <div class="cards">
+            <div class="card">
+                <img src="./assets/images/landing-charlotte-bronte.jpg" alt="Charlotte Brontë seated portrait">
+                <p class="caption">Charlotte Brontë</p>
+                <p>The eldest Brontë sister achieved literary fame in her lifetime, and was the main voice in the preservation of her sisters' legacies. She is known primarily for Jane Eyre.</p>
+                <a href="./pages/charlotte.html">Read More &#8594;</a>
+            </div>
+            <div class="card">
+                <img src="./assets/images/landing-emily-bronte.jpg" alt="Photograph of portrait of Emily Brontë drawn by Branwell Brontë at National Gallery in London">
+                <p class="caption">Emily Brontë</p>
+                <p>The enigmatic middle sister known for her intense psychological landscapes, fierce originality, and her Gothic masterpiece, Wuthering Heights.</p>
+                <a href="./pages/emily.html">Read More &#8594;</a>
+            </div>
+            <div class="card">
+                <img src="./assets/images/landing-anne-bronte.jpg" alt="black and white side-profile drawing of Anne Brontë drawn by Charlotte Brontë">
+                <p class="caption">Anne Brontë</p>
+                <p>The youngest and most socially observant sister, her bold writing in <em>The Tenant of Wildfell Hall</em> challenged Victorian norms regarding women's rights.</p>
+                <a href="./pages/anne.html">Read More &#8594;</a>
+            </div>
+            </div>
+    </div>
+
+    <!--Footer section. Similar to the header the footer content is within the 1100px container but the footer background extends to the width of the view screen-->
+    <div id="footer">
+        <div class="container">
+            <div>&copy; 2025 Adam McCarthy</div>
+        </div>
+    </div>
+</body>
+</html>

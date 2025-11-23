@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--Added language and character set for semantic correctness-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Anne Brontë</title>
+    <!--Stylesheet link-->
+    <link rel="stylesheet" href="../assets/css/styles.css"> 
+    <!--I have linked a google different google font for each of the three sisters quotes at the bottom of the page to give each page some individuality-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rochester&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!--This is the navigation bar that is shared by all pages and styled with flexbox-->
+    <!--Note the navigation sits outside of the 1100px container so the content is max width 1100px and the nav bar background takes up the full width of the page-->
+    <div id="navigation">
+        <div class="container">
+            <div class="nav-items">
+                <div class="logo">The Brontës</div>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./overview.html">Overview</a></li>
+                    <li><a href="./charlotte.html">Charlotte</a></li>
+                    <li><a href="./emily.html">Emily</a></li>
+                    <li class="active"><a href="./anne.html">Anne</a></li>
+                    <li><a href="./personal-letters.html">Letters</a></li>
+                    <li><a href="./notable-works.html">Notable Works</a></li>
+                    <li><a href="./haworth.html">Haworth</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!--Hero section the width of the 1100px container-->
+        <div class="hero hero-anne">
+            <div class="overlay">
+                <h1>Anne Brontë</h1>
+                <h2>Feminist Pioneer</h2>
+                <h3><a href="./personal-letters.html">Next: Personal Letter Excerpts &#8594;</a></h3>
+            </div>
+        </div>
+
+        <!--Bio Section created using grid with alternating timeline and text on the left and right-->
+        <div class="bio-section">
+            <!--Timeline styled to match the quote section using strong tags for semantic correctness-->
+            <div class="timeline timeline-anne">
+                <div class="timeline-item">— <strong>1820</strong> — Born at Thornton, Yorkshire</div>
+                <div class="timeline-item">— <strong>1825</strong> — Death of her two eldest sisters which brought her closer to Emily and Charlotte.</div>
+                <div class="timeline-item">— <strong>1835</strong> — Attended Roe Head School</div>
+                <div class="timeline-item">— <strong>1839</strong> — Began her six years working as a governess with a disasterous first position which inspired <em>Agnes Grey</em></div>
+                <div class="timeline-item">— <strong>1847</strong> — Published <em>Agnes Grey</em></div>
+                <div class="timeline-item">— <strong>1847</strong> — Published <em>The Tenant of Wildfell Hall</em></div>
+                <div class="timeline-item">— <strong>1848</strong> — Died aged 29 in Scarborough of Tuberculosis having been brought there by Charlotte in the hopes of recovery</div>
+            </div>
+            <div class="text-section bio-text bio-right">
+                <p>Anne Brontë was a precocious child who, when asked by her father Patrick what she most desired, replied, “Age and experience.” For most of her life, she shared a bedroom with her aunt, Elizabeth Branwell, which is thought to have contributed to her strong Anglican moral convictions.</p>
+                <p>The world of Gondal was a fictional creation of Anne and Emily. It drew from their reading of Homer, Shakespeare, Lord Byron, and others from their father’s library. This collaboration created an incredibly strong bond between the two sisters, which endured throughout their short lives.</p>
+                <p>When Emily withdrew from Roe Head School for Clergy Children due to extreme homesickness, Anne took her place. She was keen to acquire the education needed for a position as a governess, which would allow her to support herself independently.</p>
+                <p>Upon leaving Roe Head, she took a job as a governess at Blake Hall in Mirfield. The children there were spoiled and disobedient, and she struggled to educate them. Their parents did not want her to discipline them, and after nine months, unhappy with their progress, they dismissed Anne. This period of her life formed the basis for her novel <em>Agnes Grey</em>.</p>
+                <p>Anne had more success in her second position at Thorp Green Hall near York. All three Brontë sisters worked as governesses or teachers, but Anne’s six years in the role made her the most successful of the three. She is also thought to have held a quiet affection, maybe even love, for her father’s curate, William Weightman.</p>
+                <p>However, like her sister Emily, Anne contracted tuberculosis. Charlotte brought her to Scarborough, a favourite place of Anne’s, in the hope that the sea air would help her recover. Her condition worsened, and shortly before her death she whispered to Charlotte to “take courage.” She passed away soon after and was buried in the seaside town she loved.</p>
+            </div>
+        </div>
+        
+        <blockquote class="quote-section quote-anne">
+            <p class="quote">“I wished to tell the truth, for truth always conveys its own moral to those who are able to receive it.”</p>
+            <p class="citation">— Anne Brontë, <cite>The Tenant of Wildfell Hall</cite></p>
+        </blockquote>
+        
+        <div class="cards">
+            <div class="card">
+                <a href="./personal-letters.html">Letter Excerpts &#8594;</a>
+            </div>
+            <div class="card">
+                <a href="./notable-works.html">Notable Works &#8594;</a>
+            </div>
+            <div class="card">
+                <a href="./haworth.html">Haworth &#8594;</a>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="container">
+            <div>&copy; 2025 Adam McCarthy</div>
+        </div>
+    </div>
+</body>
+</html>
