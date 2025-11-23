@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--Added language and character set for semantic correctness-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,6 +7,8 @@
     <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 <body>
+    <!--This is the navigation bar that is shared by all pages and styled with flexbox-->
+    <!--Note the navigation sits outside of the 1100px container so the content is max width 1100px and the nav bar background takes up the full width of the page-->
     <div id="navigation">
         <div class="container">
             <div class="nav-items">
@@ -23,7 +26,9 @@
             </div>
         </div>
     </div>
+
     <div class="container">
+        <!--Hero section the width of the 1100px container-->
         <div class="hero hero-notable-works">
             <div class="overlay">
                 <h1>Notable Works</h1>
@@ -32,6 +37,7 @@
             </div>
         </div>
         
+        <!--Reusing text and bio section classes to format paragraphs-->
         <div class="notable">
             <h2 class="letters-heading">Charlotte, Emily, and Anne Brontë</h2>
             <img class="image-works image-left" src="../assets/images/notable-poems.jpg" alt="">
@@ -40,7 +46,11 @@
                 <p>The collection was not a success despite many critics today praising Emily's verses in particular. They had published the book in characteristic Brontë style, with anonymous black binding and using a relatively unknown stationery company. The book sold just two copies in its first year available to the public. However, a more well-known publishing house, Smith, Elder & Co., republished the book after the success of the Brontës' later works, with a more attractive cover and binding. Their growing fame led to the book also being published in America in 1848 by Lea and Blanchard of Philadelphia.</p>
             </div>
         </div>
+
+        <!--Horizontal rule to separate sections in the page-->
         <hr>
+
+        <!--Create a two column grid section specific to the works of the Brontës-->
         <div class="notable">
             <h2 class="charlotte-heading">Charlotte Brontë (as Currer Bell)</h2>
             <div class=works-section>
@@ -57,6 +67,8 @@
             </div>
         </div>
         <hr>
+
+        <!--Create a two column grid section specific to the works of the Brontës-->
         <div class="notable">
             <div class=works-section>
                 <div>
@@ -74,6 +86,8 @@
                 </div>
             </div>
         </div>
+
+        <!--Cards section created using grid that will be repeatedly used throughout the site for both site content and links at the bottom of every page-->
         <div class="cards">
             <div class="card">
                 <a href="./haworth.html">Haworth &#8594;</a>
@@ -86,6 +100,8 @@
             </div>
         </div>
     </div>
+
+    <!--Footer section. Similar to the header the footer content is within the 1100px container but the footer background extends to the width of the view screen-->
     <div id="footer">
         <div class="container">
             <div>&copy; 2025 Adam McCarthy</div>
