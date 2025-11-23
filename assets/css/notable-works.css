@@ -8,15 +8,9 @@
     margin: 20px;
     /* border: 2px solid #866f52 */
 }
-.image-left{
-    
-    float: left;
-    
-}
 
-.works-text-section {
-    line-height: 1.75em;
-    text-align:justify
+.image-left{ 
+    float: left;
 }
 
 .works-section {
@@ -25,6 +19,7 @@
     column-gap: 24px;
     margin: 48px auto;
     line-height: 1.75em;
+    text-align:left
 
 }
 
