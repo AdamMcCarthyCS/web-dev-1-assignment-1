@@ -86,6 +86,10 @@ First I will build a 5 page website. If that works out I will extend it to 8 pag
     - Content on the Bronte Waterfall can be found [here](https://haworthguide.co.uk/bronte-waterfall-and-bridge)
     - Content on Top Withens can be found [here](https://haworthguide.co.uk/top-withens)
     - Bronte Parsonage Museum content can be found [here](https://web.archive.org/web/20150623085401/http://www.bronte.org.uk/bronte-society/history)
+
+    ### Refactoring
+    - Added commenting to show reuse of classes throughout
+    - Validated html for all .html pages using [W3C-Validator](https://validator.w3.org/nu/#textarea)
     #### Reflections:
 - ### landing.html
     - I started with the idea of using grid for the main container and ended up not using it! Lets hope that doesn't evolve into a disaster!
